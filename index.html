@@ -199,7 +199,7 @@
                 <a class="categories__link" href="#">Показать еще</a>
             </div>
         </section>
-        <section class="services">
+        <section class="services section">
             <div class="container">
                 <div class="services__item">
                     <img class="services__img" src="./images/categories/services-img.png" alt="">
@@ -265,11 +265,61 @@
                 </ul>
             </div>
         </section>
-        <section class="footer">
+        <section class="clients section">
+            <div class="container">
+                <h2 class="title">
+                    Отзывы клиентов
+                </h2>
+                <div class="clients__box">
+                    <img class="clients__img" src="./images/footer/client-img.jpg" alt="">
+                    <blockquote class="clients__quote">
+                        <p class="clients__text">
+                            SimpleFood - одна из лучших служб доставки продуктов из ресторанов в городе. Очень удобный
+                            сайт и приложение. Их доставщики очень вежливы и пунктуальны. Компания часто проводит акции
+                            и
+                            дарит скидки на доставку - однозначно рекомендую!
+                        </p>
+                        <cite class="clients__name">
+                            Дарья
+                        </cite>
+                        <cite class="clients__quote">
+                            Ценитель вкусной еды
+                        </cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section class="application section">
+            <div class="container">
+                <div class="application__box">
+                    <div class="application__holder">
+                        <h2 class="application__title">
+                            Скачайте мобильное приложение
+                        </h2>
+                        <p class="application__text">
+                            Рестораны, которые вы любите - в ваших руках. Устанавливайте приложение и заказывайте еду в
+                            любом
+                            удобном месте.
+                        </p>
+                        <ul class="application__list">
+                            <li class="application__item">
+                                <img class="restaurant__img" src="./images/footer/appstore.jpg" alt="">
+                            </li>
+                            <li class="application__item">
+                                <img class="restaurant__img" src="./images/footer/googleplay.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="application__box-img">
+                        <img class="application__img" src="./images/footer/app-img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer section">
             <div class="container">
                 <div class="footer__box">
                     <div class="footer__holder footer__holder-row">
-
                         <form class="footer__form">
                             <a class="logo footer__logo" href="#">
                                 <img class="logo__img" src="./images/logo.svg" alt="логотип">
@@ -334,20 +384,22 @@
                     <address class="contacts__box">
                         <ul class="footer__list">
                             <li class="footer__item">
-                                <a class="footer__contacts-link" href="#">ул. Т.Г.Шевченко, 1</a>
+                                <a class="footer__contacts-link footer__contacts--location" href="#">ул. Т.Г.Шевченко,
+                                    1</a>
                             </li>
                             <li class="footer__item">
-                                <a class="footer__contacts-link" href="tel:380501112233">380501112233</a>
+                                <a class="footer__contacts-link footer__contacts--calling"
+                                    href="tel:380501112233">380501112233</a>
                             </li>
                             <li class="footer__item">
-                                <a class="footer__contacts-link" href="mailto:support@sfood.com">support@sfood.com</a>
+                                <a class="footer__contacts-link footer__contacts--message"
+                                    href="mailto:support@sfood.com">support@sfood.com</a>
                             </li>
                         </ul>
-                        <ul class="social">
-                            <li class="social__item">
-                                <a class="social__link" href="https://www.facebook.com/yurii.yevchenko"
-                                    style="background-image: url('./images/footer/facebook.svg');"
-                                    aria-label="Відкриває сторінку у facebook">
+                        <ul class="footer__social">
+                            <li class="footer__social__item">
+                                <a class="footer__social__link" href="#"
+                                    style="background-image: url('./images/gallery/pizza-1.jpg');">
                                 </a>
                             </li>
                             <li class="social__item">
@@ -366,6 +418,7 @@
                 </div>
             </div>
         </section>
+
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="./js/mixitup.min.js"></script>
